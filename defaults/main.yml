@@ -1,0 +1,9 @@
+---
+# defaults file for ansible-nodejs
+ansible_nodejs_download_dir: '/tmp/ansible/downloads'
+ansible_nodejs_version: 'v6.9.5'
+ansible_nodejs_install_base_dir: '/opt/nodejs'
+ansible_nodejs_package: "node-{{ ansible_nodejs_version }}-linux-x64.tar.gz"
+ansible_nodejs_install_dir: "{{ ansible_nodejs_install_base_dir }}/node-{{ ansible_nodejs_version }}-linux-x64"
+#ansible_nodejs_sha256sum: 'ebbd70ffe0daac6b33df74577c9d25cfb678dbc0016a5ea9eff99d2c5bdb3851'
+ansible_nodejs_global_pkgs: []
